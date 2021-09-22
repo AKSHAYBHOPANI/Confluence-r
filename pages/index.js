@@ -10,6 +10,7 @@ export default function Home(theme) {
   useEffect(() => {
 var toggleButton = document.querySelector('.toggle-menu');
 var navbar = document.querySelector('.header');
+navbar.style.display="none"
 // toggleButton.addEventListener('click', function () {
 //   navbar.classList.toggle('toggle');
 // });
