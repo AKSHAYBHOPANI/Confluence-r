@@ -55,30 +55,26 @@ var navbar = document.querySelector('.header');
 	<div className={styles.middle}>
     <div className={styles.text}>OUR WORK</div>
   </div></a></Link>
-	<a  className={`${styles.box2} ${styles.pink}`}>
+	<div  className={`${styles.box2} ${styles.pink}`}>
   <Serp/>
-  <div className={styles.middle}>
-    <div className={styles.text}></div>
-  </div></a>
+  </div>
 	<a  href="https://blog.confluence-r.com" className={`${styles.box} ${styles.lightblue}`}>
 <Image layout="fill" src={`/light/Arrows${theme.theme}.gif`}/>
 	<div className={styles.middle}>
     <div className={styles.text} id="blog">BLOG</div>
   </div></a>
-	<a  className={`${styles.box} ${styles.yellow}`}>
+	<div  className={`${styles.box} ${styles.yellow}`}>
 <Image layout="fill" src={`/light/confluencer${theme.theme}.gif`}/>
-	<div className={styles.middle}>
-    <div className={styles.text}></div>
-  </div></a>
+	</div>
 	<a className={`${styles.box} ${styles.white}`}>
 <Image layout="fill" src={`/light/lines${theme.theme}.png`}/>
   <div className={styles.middle}>
-    <div className={styles.text}></div>
+    <div className={styles.text}>REVIEWS</div>
   </div></a>
 	<a href="https://www.instagram.com/confluencer_/?hl=en" className={`${styles.box} ${styles.orange}`}>
 <Image layout="fill" src={`/light/rings${theme.theme}.gif`}/>
 	<div className={styles.middle}>
-    <div className={styles.text}></div>
+    <div className={styles.text}>SOCIAL MEDIA</div>
   </div></a>
   <Link href="./contact"><a href="./" className={`${styles.box2} ${styles.white}`}>
   <Image layout="fill" src={`/light/logo${theme.theme}.png`}/>
