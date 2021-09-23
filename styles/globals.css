@@ -75,8 +75,8 @@ button, .button {
 }
 
 footer {
-  background-color: var(--nav-color);
-  position: relative;
+  background-color: rgba(255,255,255,0.5);
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -86,7 +86,7 @@ footer {
 }
 
 footer > p,i {
-color: var(--primary-color);
+color: var(--secondary-color);
 }
 
 .header ul {
@@ -545,6 +545,13 @@ input:checked + .slider::before {
 @media only screen and (max-width: 600px) {
 .nav-bar {
   display: block;
+}
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+  background-color: var(--primary-color)
 }
 
 .container {
