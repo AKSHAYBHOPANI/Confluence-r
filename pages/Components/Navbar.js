@@ -9,10 +9,10 @@ export default function Navbar() {
   <input class="menu-btn" type="checkbox" id="menu-btn" />
   <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
   <ul class="menu">
-    <li><Link href="/our-work">Our Work</Link></li>
-    <li><Link href="/about">About</Link></li>
-    <li><Link href="/careers">Careers</Link></li>
-    <li><Link href="/contact">Contact</Link></li>
+    <li><Link href="/our-work">OUR WORK</Link></li>
+    <li><Link href="/about">ABOUT US</Link></li>
+    <li><Link href="/careers">CAREERS</Link></li>
+    <li><Link href="/contact">CONTACT US</Link></li>
   </ul>
 </header>
 
