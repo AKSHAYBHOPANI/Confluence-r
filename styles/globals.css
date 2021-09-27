@@ -1,7 +1,7 @@
 :root {
   --primary-color: white;
   --secondary-color: black;
-  --background: rgb(255, 255, 255);
+  --background: whitesmoke;
   --nav-color: black;
   --box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
   --pink: #EFB2A0;
@@ -47,6 +47,7 @@ a {
 
 h1,h2,h3 {
   color: var(--secondary-color);
+  text-align: center;
 }
 
 p {
