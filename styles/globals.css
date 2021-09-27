@@ -25,6 +25,11 @@
    --SERP: #DA1254;
 }
 
+#nprogress .bar {
+  background: var(--red)!important;
+  height: 4px!important;
+}
+
 
 html,
 body {
@@ -73,6 +78,10 @@ button, .button {
   width: 100%;
   z-index: 3;
 }
+
+/*.header:hover {
+  background-color: rgba(255,255,255,0.5);
+}*/
 
 footer {
   background-color: rgba(255,255,255,0.5);
@@ -541,6 +550,19 @@ input:checked + .slider::before {
   display: none;
 }
 
+.gallery {
+  display: flex;
+  
+}
+
+.gallery-cont {
+  flex: 1;
+  width: 50%!important;
+}
+
+.page {
+  padding: 1rem;
+}
 
 @media only screen and (max-width: 600px) {
 .nav-bar {

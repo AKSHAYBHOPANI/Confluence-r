@@ -69,7 +69,7 @@ var navbar = document.querySelector('.header');
 	<a className={`${styles.box} ${styles.white}`}>
 <Image layout="fill" src={`/light/lines${theme.theme}.png`}/>
   <div className={styles.middle}>
-    <div className={styles.text}>REVIEWS</div>
+    <div className={styles.text}>CASE STUDIES</div>
   </div></a>
 	<a href="https://www.instagram.com/confluencer_/?hl=en" className={`${styles.box} ${styles.orange}`}>
 <Image layout="fill" src={`/light/rings${theme.theme}.gif`}/>
