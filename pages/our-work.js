@@ -10,7 +10,7 @@ export default function OurWork() {
 <br/><br/><br/>
 
 <div className="page">
-<h1>Our Work</h1>
+<h1>OUR WORK</h1>
 
 
 <div className={styles.home}>
