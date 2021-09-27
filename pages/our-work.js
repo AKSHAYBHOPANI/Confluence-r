@@ -15,7 +15,7 @@ export default function OurWork() {
 
 <div className={styles.home}>
 <a href="https://www.cbhogilal.in/" className={`${styles.box} ${styles.yellow} ${styles.main}`}>
-		<Image layout="fill" src={`/Clients/cbhogilal.png`}/><div className={styles.middle}>
+		<Image layout="fill" src={`/Clients/Cbhogilal.png`}/><div className={styles.middle}>
     <div className={styles.text} id="home">CBHOGILAL</div>
   </div></a>
 	<Link href="https://retreeve.club/"><a href="https://retreeve.club/" className={`${styles.box} ${styles.white}`}>
@@ -55,7 +55,7 @@ export default function OurWork() {
     <div className={styles.text}>AASTHA</div>
   </div></a></Link>
   <Link href="https://www.panandthedream.com/"><a href="https://www.panandthedream.com/" className={`${styles.box} ${styles.yellow} ${styles.main}`}>
-	<Image layout="fill" src={`/Clients/Pan.png`}/>
+	<Image layout="fill" src={`/Clients/pan.png`}/>
 	<div className={styles.middle}>
     <div className={styles.text}>PAN & THE DREAMS</div>
   </div></a></Link>
