@@ -1,0 +1,15 @@
+.gallery {
+  display        : flex;
+  flex-wrap      : wrap;
+  align-items    : center;
+  justify-content: space-around;
+  
+  max-height     : 100vh;
+}
+
+.gallery img {
+  margin    : 1em;
+  box-shadow: 3px 3px 8px 0px grey;
+  max-width : 15vw;
+}
+
