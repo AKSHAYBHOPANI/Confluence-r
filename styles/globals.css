@@ -9,7 +9,7 @@
    --red: #EBA1A4;
    --yellow: #E8D2A3;
    --orange: #EFB2A0;
-   --SERP: pink;
+   --SERP: rgb(237,203,208);
 }
 
 [data-theme="dark"] {
@@ -22,7 +22,7 @@
    --red: red;
    --yellow: yellow;
    --orange:orange;
-   --SERP: #DA1254;
+   --SERP: rgb(181,181,181);
 }
 
 #nprogress .bar {
