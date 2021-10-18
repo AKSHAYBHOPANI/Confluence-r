@@ -45,7 +45,7 @@
 }
 
 .pink {
-  background-color: var(--SERP);
+  background-color: rgb(237,203,208);
   color: white;
   display: block;
   transition: .5s ease;

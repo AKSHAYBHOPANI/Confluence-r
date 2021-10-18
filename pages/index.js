@@ -77,7 +77,7 @@ var navbar = document.querySelector('.header');
     <div className={styles.text}>SOCIAL MEDIA</div>
   </div></a>
   <Link href="./contact"><a href="./" className={`${styles.box2} ${styles.white}`}>
-  <Image layout="fill" src={`/light/logo${theme.theme}.png`}/>
+  <Image layout="fill" src={`/light/logo.png`}/>
   <div className={styles.middle}>
     <div className={styles.text} id="contact-us">CONTACT US</div>
   </div></a></Link>
