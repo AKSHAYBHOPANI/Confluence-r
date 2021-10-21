@@ -45,7 +45,7 @@ var navbar = document.querySelector('.header');
     <div className={styles.text} id="home">HOME</div>
   </div></a>
 	<Link href="./about"><a className={`${styles.box} ${styles.white}`}>
-	<Image layout="fill" src={`/light/river${theme.theme}.gif`}/>
+	<Image layout="fill" src={`/light/about${theme.theme}.gif`}/>
 		<div className={styles.middle}>
     <div className={styles.text} id="about">ABOUT US</div>
   </div>
@@ -66,11 +66,11 @@ var navbar = document.querySelector('.header');
 	<div  className={`${styles.box} ${styles.yellow}`}>
 <Image layout="fill" src={`/light/confluencer${theme.theme}.gif`}/>
 	</div>
-	<a className={`${styles.box} ${styles.white}`}>
+	<Link href="/case-studies"><a className={`${styles.box} ${styles.white}`}>
 <Image layout="fill" src={`/light/lines${theme.theme}.png`}/>
   <div className={styles.middle}>
     <div className={styles.text}>CASE STUDIES</div>
-  </div></a>
+  </div></a></Link>
 	<a href="https://www.instagram.com/confluencer_/?hl=en" className={`${styles.box} ${styles.orange}`}>
 <Image layout="fill" src={`/light/rings${theme.theme}.gif`}/>
 	<div className={styles.middle}>

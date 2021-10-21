@@ -1,7 +1,7 @@
 :root {
   --primary-color: white;
-  --secondary-color: black;
-  --background: whitesmoke;
+  --secondary-color: grey;
+  --background: #fbfbfb;
   --nav-color: black;
   --box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
   --pink: #EFB2A0;
@@ -10,19 +10,37 @@
    --yellow: #E8D2A3;
    --orange: #EFB2A0;
    --SERP: rgb(237,203,208);
+   --one:#fffded;
+   --two:#fff9cf;
+   --three:#fffded;
+   --four:#fff9d7;
+   --five:#fffefa;
+   --six:#fffbc2;
+   --seven:#fffbc2;
+   --eight:#faf6d8;
+   --nine:#fffffc;
 }
 
 [data-theme="dark"] {
   --primary-color: grey;
-  --secondary-color: white;
-  --background: #121212;
+  --secondary-color: black;
+  --background: whitesmoke;
    --nav-color: white;
    --pink: pink;
    --blue: blue;
    --red: red;
    --yellow: yellow;
    --orange:orange;
-   --SERP: rgb(181,181,181);
+   --SERP: #e5afb7;
+   --one:#fff3e1;
+   --two:#fef2de;
+   --three:#fce0b5;
+   --four:#ffe3b7;
+   --five:#fce7c7;
+   --six:#f5ebdb;
+   --seven:#f8e2c0;
+   --eight:#f7f2eb;
+   --nine:#ffe4c8;
 }
 
 #nprogress .bar {
@@ -48,7 +66,13 @@ a {
 h1,h2,h3 {
   color: grey;
   text-align: center;
+
 }
+
+h2 {
+  font-size: 1.7rem;
+}
+
 
 p {
   color: var(--secondary-color);
@@ -327,7 +351,7 @@ input:checked + .slider::before {
 }
 
 .fas {
-  font-size: 30px;
+  font-size: 1rem;
   margin-right: 5px;
   color:  var(--secondary-color);
 }
@@ -620,4 +644,17 @@ footer {
   display: none;
 }
 
+}
+
+.fas.fab {
+  font-size: 1rem;
+
+}
+
+.icons {
+position: relative;
+  /* Adjust these values accordingly */
+  top: 5px;
+  left: 5px;
+  font-size: 2rem;
 }

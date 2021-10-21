@@ -59,7 +59,11 @@ export default function OurWork() {
 	<div className={styles.middle}>
     <div className={styles.text}>IELTS</div>
   </div></a></Link>
-  
+  <Link href="https://www.instagram.com/devijewelsbyradhikac/"><a href="https://www.instagram.com/devijewelsbyradhikac/" className={`${styles.box} ${styles.yellow} ${styles.main}`}>
+	<Image layout="fill" src={`/Clients/Devi.png`}/>
+	<div className={styles.middle}>
+    <div className={styles.text}>DEVI</div>
+  </div></a></Link>
 </div>
 
 </div>

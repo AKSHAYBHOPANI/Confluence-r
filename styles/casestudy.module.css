@@ -1,0 +1,66 @@
+.responsive {
+	text-align: center;
+}
+
+.responsivep {
+align-content: center;
+justify-content: center;
+}
+
+.responsiveimg {
+text-align: center;
+align-content: center;
+justify-content: center;
+width: 35%;	
+padding: 1rem;
+}
+
+.textArea {
+	padding-left: 18%;
+	padding-right: 18%;
+	text-align: justify;
+}
+
+.ulp {
+  float: left;
+  list-style-type:none;
+  margin: 1rem;
+
+}
+.ulp2 {
+  float: right;
+  list-style-type:none;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+.responsive {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+}
+.responsiveimg {
+align-content: center;
+justify-content: center;
+width: 100%;	
+padding: 1rem;
+}
+.textArea {
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: justify;
+}
+.ulp {
+  float: none;
+  list-style-type:none;
+  margin: 1rem;
+}
+
+.ulp2 {
+  float: none;
+  list-style-type:none;
+  margin: 0rem;
+}
+}
+
+

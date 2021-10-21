@@ -1,15 +1,166 @@
-.gallery {
-  display        : flex;
-  flex-wrap      : wrap;
-  align-items    : center;
-  justify-content: space-around;
+.main {
+  display: grid;
+  place-items: center;
+}
+
+.home {
+	width: 100%;
+	height: 100vh;
+  padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.box {
   
-  max-height     : 100vh;
+  width: 25%;
+  height: 35%;
+  position: relative;
 }
 
-.gallery img {
-  margin    : 1em;
-  box-shadow: 3px 3px 8px 0px grey;
-  max-width : 15vw;
+.box2 {
+  width: 50%;
+  height: 35%;
+  position: relative;
 }
 
+.one {
+	background-color:var(--one);
+	color: white;
+	display: block;
+	transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+
+.two {
+  background-color:var(--two);
+  color: white;
+  display: block;
+  transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.three {
+  background-color:var(--three);
+  color: white;
+  display: block;
+  transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.four {
+	background-color:var(--four);
+	display: block;
+	transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.five {
+	background-color:var(--five);
+	color: white;
+	display: block;
+	transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.six {
+  background-color:var(--six);
+	display: block;
+	transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.seven {
+  background-color:var(--seven);
+  display: block;
+  transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.eight {
+  background-color:var(--eight);
+  display: block;
+  transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.nine {
+  background-color:var(--nine);
+  display: block;
+  transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(228,233,237,0.5);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.box:hover .blue .white .black .lightblue {
+  opacity: 0.3;
+}
+
+.box:hover .middle {
+  opacity: 1;
+}
+
+.box2:hover .blue .white .black .lightblue {
+  opacity: 0.3;
+}
+
+.box2:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  font-size: 30px;
+  color: white;
+  
+  font-weight: bold;
+  font-size: 5rem;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.center {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.box {
+  width: 100%;
+  position: relative;
+}
+
+.box2 {
+  
+  width: 100%;
+  height: 35%;
+  position: relative;
+}
+   .middle {
+	opacity: 1;
+
+	}
+}

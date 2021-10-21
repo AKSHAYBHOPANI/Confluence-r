@@ -53,6 +53,14 @@
 
 }
 
+.pink {
+  background-color: var(--SERP);
+  color: white;
+  display: block;
+  transition: .5s ease;
+    backface-visibility: hidden;
+}
+
 .light-blue {
   background-color: lightblue;
   color: white;
