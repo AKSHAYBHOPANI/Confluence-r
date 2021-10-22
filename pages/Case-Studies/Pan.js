@@ -13,7 +13,7 @@ export default function Pan() {
 
 <div className="page">
 <h1>PAN & THE DREAM</h1>
-
+<p style={{textAlign:'center'}}>New York, NY</p>
 <div className={`${styles.responsive}`}>
 {/*<img className={styles.responsiveimg} src="/Clients/Logos/dynamatics.png"/>*/}
 <div className={styles.textArea} style={{fontSize:'1.5rem'}}>

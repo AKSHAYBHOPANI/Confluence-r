@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/our-work": "pages/our-work.js",
-  "/Case-Studies/Cbc": "pages/Case-Studies/Cbc.js"
+  "/case-studies": "pages/case-studies.js",
+  "/Case-Studies/Devi": "pages/Case-Studies/Devi.js"
 }

@@ -14,10 +14,10 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Case-Studies/Cbc": [
+    "/Case-Studies/Devi": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Case-Studies/Cbc.js"
+      "static/chunks/pages/Case-Studies/Devi.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
@@ -29,10 +29,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/our-work": [
+    "/case-studies": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/our-work.js"
+      "static/chunks/pages/case-studies.js"
     ]
   },
   "ampFirstPages": []

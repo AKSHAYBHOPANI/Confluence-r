@@ -44,6 +44,8 @@ current digitally competitive space.<br/><br/>
 <li><i class="fab fa-searchengin icons"></i> SEO Friendly</li>
 <br/>
 <li><i class="fas fa-server icons "></i> Legacy Features and Pages Support</li>
+<br/>
+<li><i class="fas fa-tools icons"></i> Maintenance Service</li>
 
 </ul>
 

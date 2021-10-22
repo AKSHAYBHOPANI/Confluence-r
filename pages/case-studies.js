@@ -22,34 +22,35 @@ export default function OurWork(theme) {
 </a></Link>
 <Link href="/Case-Studies/Pan"><a className={`${styles.box2} ${styles.two}`}>
 <h1 style={{fontSize:'3.1rem', position:'relative',top:'40%', left:'50%', transform:'translate(-50%,-50%)'}} >PAN & THE DREAM</h1>
+<p style={{position:'relative',top:'20%', left:'50%', transform:'translate(-10%,-10%)'}} >New York, NY</p>
 </a></Link>
 <Link href="/Case-Studies/Cbc"><a className={`${styles.box} ${styles.seven}`}>
 <div className={`${styles.center}`}>
 <Image layout="responsive" width={50} height={20}  src="/Clients/Logos/cbc.png"/>
 </div>
 </a></Link>
-<a className={`${styles.box} ${styles.five}`}>
+<Link href="/Case-Studies/Gehna"><a className={`${styles.box} ${styles.five}`}>
 <Image layout="fill" src="/Clients/Logos/gehna.png"/>
-</a>
-<a className={`${styles.box} ${styles.six}`}>
+</a></Link>
+<Link href="/Case-Studies/Aastha"><a className={`${styles.box} ${styles.six}`}>
 <Image layout="fill" className="${styles.yellow}" src="/Clients/Logos/aastha.png"/>
-</a>
-<a className={`${styles.box} ${styles.three} `}>
+</a></Link>
+<Link href="/Case-Studies/Fox"><a className={`${styles.box} ${styles.three} `}>
 <Image layout="fill" src="/Clients/Logos/fox.png"/>
-</a>
-<a href="./" className={`${styles.box} ${styles.four} ${styles.main}`}>
+</a></Link>
+<Link href="/Case-Studies/Retreeve"><a href="./" className={`${styles.box} ${styles.four} ${styles.main}`}>
 <Image layout="fill" src="/Clients/Logos/retreeve.png"/>
-</a>
-<a className={`${styles.box} ${styles.eight}`}>
+</a></Link>
+<Link href="/Case-Studies/Surgems"><a className={`${styles.box} ${styles.eight}`}>
 <div className={`${styles.center}`}>
 <Image layout="responsive" width={95} height={80} src="/Clients/Logos/surgems.png"/>
 </div>
-</a>
-<a className={`${styles.box} ${styles.nine}`}>
+</a></Link>
+<Link href="/Case-Studies/Devi"><a className={`${styles.box} ${styles.nine}`}>
 <div className={`${styles.center}`}>
-<Image layout="responsive" width={30} height={13} src="/Clients/Logos/devi.png"/>
+<Image layout="responsive" width={30} height={13} src="/Clients/Logos/devi2.png"/>
 </div>
-</a>
+</a></Link>
 </div>
 
 
