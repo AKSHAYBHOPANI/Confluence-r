@@ -48,7 +48,7 @@ export default function OurWork(theme) {
 </a></Link>
 <Link href="/Case-Studies/Devi"><a className={`${styles.box} ${styles.nine}`}>
 <div className={`${styles.center}`}>
-<Image layout="responsive" width={30} height={13} src="/Clients/Logos/devi2.png"/>
+<Image layout="responsive" width={30} height={30} src="/Clients/Logos/devi.png"/>
 </div>
 </a></Link>
 </div>

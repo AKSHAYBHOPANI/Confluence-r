@@ -19,6 +19,9 @@
    --seven:#fef8d5;
    --eight:#faf6d8;
    --nine:#fffffc;
+   --c1:#def8ff;
+   --c2:#c9f3ff;
+   --c3:#eafaff;
 }
 
 [data-theme="dark"] {
@@ -41,6 +44,9 @@
    --seven:#f8e2c0;
    --eight:#f7f2eb;
    --nine:#ffe4c8;
+    --c1:#c4e9ff;
+   --c2:#dbf2ff;
+   --c3:#b2cedf;
 }
 
 #nprogress .bar {
@@ -595,6 +601,12 @@ input:checked + .slider::before {
   display: block;
   padding: 0;
   margin: 0;
+}
+
+.contactus {
+  padding-left: 5%;
+  padding-right: 5%; 
+
 }
 
 @media only screen and (max-width: 600px) {
