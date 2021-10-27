@@ -14,6 +14,13 @@
 .box {
   
   width: 25%;
+  height: 38%;
+  position: relative;
+}
+
+.boxf {
+  
+  width: 25%;
   height: 80%;
   position: relative;
 }

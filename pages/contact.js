@@ -65,7 +65,7 @@ return (
 <div className={`${styles.center}`}>
 	<div class="contact" >
 
-    <div style={{textAlign: 'center'}}><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30183.92334290335!2d72.79920630301116!3d18.976030581875307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf22b7208253%3A0x5f086a6559658997!2sConfluence-r!5e0!3m2!1sen!2sin!4v1609585891421!5m2!1sen!2sin" width="95%" height="450" frameborder="0" style={{border:'0'}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><br/><br/><br/></div>
+    <div style={{textAlign: 'center'}}><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30183.92334290335!2d72.79920630301116!3d18.976030581875307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf22b7208253%3A0x5f086a6559658997!2sConfluence-r!5e0!3m2!1sen!2sin!4v1609585891421!5m2!1sen!2sin" width="95%" height="250" frameborder="0" style={{border:'0'}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><br/><br/><br/></div>
 </div>
 </div></a>
 
@@ -73,9 +73,9 @@ return (
 <div style={{paddingLeft: '5%', position:'relative', top:'50%', left:'50%', transform:'translate(-50%,-50%)'}}>
 
 <div style={{textAlign: 'left'}}>
-
+<br/><br/>
 <i style={{lineHeight: '1.5'}} class="fas fa-map-marker-alt fa-lg">Address : Sunville Building, Lamington Road, Mumbai 400004.
-</i><br/><br/><br/>
+</i><br/>
 
 <i class="fas fa-mobile fa-lg" >  Phone : <a href="tel:+919820202145">+91 9820202145</a></i><br/><br/><br/>
 <i style={{lineHeight: '1.5'}} class="fas fa-envelope fa-lg" >    E-Mail : <a href="mailto:info@confluence-r.com">info@confluence-r.com</a></i><br/><br/><br/>
