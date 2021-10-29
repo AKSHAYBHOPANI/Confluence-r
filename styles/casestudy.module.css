@@ -1,3 +1,8 @@
+.page {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
 .responsive {
 	text-align: center;
 }
@@ -35,7 +40,23 @@ padding: 1rem;
   text-align: left;
 }
 
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.titlep{
+text-align: center;
+font-size: 1.5rem;
+}
+
 @media only screen and (max-width: 600px) {
+
+.page {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .responsive {
 	display: flex;
 	flex-wrap: wrap;

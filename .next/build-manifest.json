@@ -14,10 +14,20 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
+    "/Services/Confluence": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/Services/Confluence.js"
+    ],
+    "/Services/Meander": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Services/Meander.js"
+    ],
+    "/Services/Ocean": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Services/Ocean.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
@@ -29,10 +39,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/contact": [
+    "/case-studies": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/contact.js"
+      "static/chunks/pages/case-studies.js"
+    ],
+    "/next/dist/pages/_error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/next/dist/pages/_error.js"
     ],
     "/services": [
       "static/chunks/webpack.js",

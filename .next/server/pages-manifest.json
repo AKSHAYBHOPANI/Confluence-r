@@ -2,7 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/case-studies": "pages/case-studies.js",
   "/services": "pages/services.js",
-  "/contact": "pages/contact.js",
-  "/": "pages/index.js"
+  "/Services/Ocean": "pages/Services/Ocean.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/Services/Confluence": "pages/Services/Confluence.js",
+  "/Services/Meander": "pages/Services/Meander.js"
 }

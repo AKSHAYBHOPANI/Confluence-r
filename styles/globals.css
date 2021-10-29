@@ -20,8 +20,12 @@
    --eight:#faf6d8;
    --nine:#fffffc;
    --c1:#def8ff;
-   --c2:#c9f3ff;
+   --c2: #c9f3ff;
    --c3:#eafaff;
+   --s1: #f6d0d4;
+   --s2:#f8d8dc;
+   --s3: #f2ccd0;
+   --s4:#e8bbc1;
 }
 
 [data-theme="dark"] {
@@ -47,12 +51,19 @@
     --c1:#c4e9ff;
    --c2:#dbf2ff;
    --c3:#b2cedf;
+    --s1: #f4d0d5;
+   --s2:#f7d1d5;
+   --s3: #e6b6bc;
+   --s4:#f2a8b6;
 }
 
 #nprogress .bar {
   background: var(--red)!important;
   height: 4px!important;
 }
+
+hr {width: 5%;margin-left: auto;margin-right: auto;};
+
 
 
 html,
@@ -606,6 +617,22 @@ input:checked + .slider::before {
 .contactus {
   padding-left: 5%;
   padding-right: 5%; 
+
+}
+
+.text-wrapper {
+  display: flex; flex-wrap: nowrap; justify-content: space-between; font-size: 20px; text-align: left;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.wrap-container {
+  width: 100%;
+  text-align: justify;
 
 }
 
