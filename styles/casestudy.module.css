@@ -50,6 +50,27 @@ text-align: center;
 font-size: 1.5rem;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+
+  }
+
+ .wrapcontainer {
+  text-align: center;
+
+}
+
+  .wrapcontainer > img {
+  width: 50%;
+
+}
+
+ .wrapcontainer > div > div  > img {
+  width: 50%;
+
+}
+
 @media only screen and (max-width: 600px) {
 
 .page {
@@ -84,6 +105,12 @@ padding: 1rem;
   list-style-type:none;
   margin: 0rem;
 }
+
+ .wrapcontainer > img {
+  width: 100%;
+
+}
+
 }
 
 

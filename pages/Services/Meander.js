@@ -17,23 +17,21 @@ export default function Dynamatics() {
 <br/>
 
 
-<div class="wrap-container">
+<div class={styles.wrapcontainer}>
  
-<p  ><h2>Basic Service:<hr/></h2>
+<h2>Basic Service:<hr/></h2>
 <img  src="/SocialMedia/B1.png" alt="Social Media Accounts" width="100%"/>
 <li>Creating social media accounts and regulating posts</li>
 <img  src="/SocialMedia/B2.png" alt="Integrating Social Media Platforms" width="100%"/>
 <li>Integration of all social media platforms</li>
 <img  src="/SocialMedia/B3.png" alt="Designing Social Media Campaign" width="100%"/>
 <li>Designing a strategic campaign</li>
-
-</p>
   </div>
 
 <br/><br/>
 <div class="wrap">
-	<div class="wrap-container">
-		<p ><h2>Premium Service:<hr/></h2>
+	<div class={styles.wrapcontainer}>
+		<h2>Premium Service:<hr/></h2>
 <img  src="/SocialMedia/B1.png" alt="Social Media Accounts" width="100%" />	
 <li>Creating social media accounts and regulating posts</li>
 <img src="/SocialMedia/B2.png" alt="Integrating Social Media Platforms" width="100%"/>
@@ -47,7 +45,6 @@ export default function Dynamatics() {
 <img  src="/SocialMedia/P2.png" alt="Influencer Partnerships" width="100%"/>
 <li>Influencer acquisition and paid partnerships</li>
 
-</p>
 </div>
 </div>
 

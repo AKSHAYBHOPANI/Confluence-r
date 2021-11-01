@@ -17,10 +17,10 @@ export default function Dynamatics() {
 <br/>
 
 <p ><h2>Basic Service:<hr/></h2></p>
-
+<div class={styles.wrapcontainer}>
 <div class="event-wrapper">
 	<div class="event-text-wrapper"><h2>Time</h2>Create  anticipating countdown with gifs and graphic along with necessary teasers and hints.</div>
-<img  alt="Time Teasers"/>
+<img  src="/Event/1.png" alt="Time Teasers"/>
 </div>
 <br/>
 <div class="event-wrapper">
@@ -32,10 +32,10 @@ export default function Dynamatics() {
 	<div class="event-text-wrapper"><h2>Code</h2>Create filters on Snapchat or instagram for specific event with logos and theme related colors..</div>
 <img  src="/Event/3.png" alt="Snapchat and Instagram Filters"/>
 </div>
-<br/><br/>
+<br/><br/></div>
 <p  ><h2>Premium Service:<hr/></h2>
 <br/><br/>
-
+<div class={styles.wrapcontainer}>
 <div class="event-wrapper">
 	<div class="event-text-wrapper"><h2>Gift Policy</h2>Help coordinate and manage product and service giveaways</div>
 <img  src="/Event/4.png" alt="Manage Giveaways"/>
@@ -49,7 +49,7 @@ export default function Dynamatics() {
 <br/>
 <div class="event-wrapper">
 	<div class="event-text-wrapper"><h2> Itinerary</h2>Help with creating live events (interviews, auctions, meet and greet, etc)</div>
-<img  src="/Event/6.png" alt="Live Events"/>
+<img  src="/Event/6.png" alt="Live Events"/></div>
 </div></p>
 
 </div>
