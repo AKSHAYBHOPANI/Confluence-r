@@ -56,6 +56,20 @@ font-size: 1.5rem;
 
   }
 
+.flex > img {
+  width: 50%;
+}
+
+.flex > li {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+
+}
+
  .wrapcontainer {
   text-align: center;
 
