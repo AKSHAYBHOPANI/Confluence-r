@@ -2,6 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/services": "pages/services.js",
+  "/our-work": "pages/our-work.js",
   "/Services/Meander": "pages/Services/Meander.js",
   "/case-studies": "pages/case-studies.js"
 }
