@@ -19,7 +19,7 @@
 }
 
 .box2 {
-  width: 25%;
+  width: 50%;
   height: 35%;
   position: relative;
 }
@@ -90,13 +90,6 @@
 
 .nine {
   background-color:var(--nine);
-  display: block;
-  transition: .5s ease;
-    backface-visibility: hidden;
-}
-
-.white {
-  background-color:white;
   display: block;
   transition: .5s ease;
     backface-visibility: hidden;
