@@ -70,7 +70,7 @@ document.getElementById("abouto").addEventListener("mouseleave",UpdateTitleOR);
     <div className={styles.text} id="aboutm">MOUNTAIN</div>
   </div>
 	</a></Link>
-<a href="/Services/Meander" className={`${styles.box} ${styles.yellow} ${styles.main}`}>
+<a href="/Services/Meander" className={`${styles.box2} ${styles.yellow} ${styles.main}`}>
 		<img layout="fill" className={styles.icon} src={`/Services/i2.png`}/><div className={styles.middle}>
     <div className={styles.text} id="aboutme">MEANDER</div>
   </div></a>
