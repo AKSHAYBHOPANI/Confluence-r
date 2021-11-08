@@ -55,6 +55,7 @@ export default function OurWork(theme) {
 <Image layout="fixed" width={250} height={150} src="/Clients/Logos/devi.png"/>
 </div>
 </a></Link>
+
 </div>
 
 

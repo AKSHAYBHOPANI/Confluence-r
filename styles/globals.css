@@ -98,7 +98,7 @@ p {
 
 * {
   box-sizing: border-box;
-  font-family: 'Work Sans', sans-serif!important;
+  font-family: 'Work Sans', sans-serif;
 }
 
 button, .button {
