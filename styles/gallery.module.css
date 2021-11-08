@@ -144,6 +144,9 @@
   left: 50%;
   transform: translate(-50%,-50%);
   padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 

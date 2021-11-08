@@ -47,7 +47,7 @@
    --six:#fff3e8;
    --seven:#ffefdf;
    --eight:#fcf6ef;
-   --nine:#faf2e9;
+   --nine:#;
     --c1:#c4e9ff;
    --c2:#dbf2ff;
    --c3:#b2cedf;
@@ -72,7 +72,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: var(--background);
+  background-color: var(--background);
 }
 
 a {
@@ -602,9 +602,6 @@ input:checked + .slider::before {
   width: 50%!important;
 }
 
-.page {
-  padding: 1rem;
-}
 
 .Services {
   width: 100%;
