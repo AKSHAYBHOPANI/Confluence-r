@@ -2,6 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Case-Studies/Cbc": "pages/Case-Studies/Cbc.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/Services/Ocean": "pages/Services/Ocean.js",
+  "/Services/Meander": "pages/Services/Meander.js",
+  "/Services/Mountain": "pages/Services/Mountain.js",
+  "/Services/Confluence": "pages/Services/Confluence.js",
   "/services": "pages/services.js"
 }

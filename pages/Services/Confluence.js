@@ -37,13 +37,10 @@ export default function Dynamatics() {
 	<div class="wrap-container">
 		<p  ><h2>Premium Service:<hr/></h2></p><br/><br/>
 
-			<img  src="/Content/Basic.png" alt="Confluence Content Basic Service"/>
+			
 			<div class="text-wrapper">
 
-<div  >	
-Create Logo and Brand Image (for Packaging, Digital Presence, etc).</div>
-<div >Use Industry Researched Colours and Hues to Initiate Pull Marketing</div>
-<div >Create Content for Social Media</div>
+
 
 </div>
 <img  src="/Content/Premium.png" alt="Confluence Content Premium Service"/>
