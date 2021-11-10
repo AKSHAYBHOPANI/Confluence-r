@@ -106,9 +106,17 @@ p {
 button, .button {
   background: var(--primary-color);
   transition: 0.4s;
-  border: 2px solid black;
+  border: 1px solid black;
   padding: 0.7rem;
   color: var(--button-color);
+}
+
+button:hover, .button:hover {
+  background: var(--secondary-color);
+  transition: 0.4s;
+  border: 1px solid white;
+  padding: 0.7rem;
+  color: white;
 }
 
 .Container {
