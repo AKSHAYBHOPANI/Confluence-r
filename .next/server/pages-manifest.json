@@ -2,10 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Case-Studies/Dynamatics": "pages/Case-Studies/Dynamatics.js",
-  "/case-studies": "pages/case-studies.js",
-  "/Case-Studies/Pan": "pages/Case-Studies/Pan.js",
-  "/Case-Studies/Retreeve": "pages/Case-Studies/Retreeve.js",
-  "/Case-Studies/Surgems": "pages/Case-Studies/Surgems.js",
-  "/Case-Studies/Fox": "pages/Case-Studies/Fox.js"
+  "/Services/Mountain": "pages/Services/Mountain.js",
+  "/case-studies": "pages/case-studies.js"
 }

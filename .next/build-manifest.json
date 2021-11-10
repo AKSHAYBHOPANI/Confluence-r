@@ -14,30 +14,10 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Case-Studies/Dynamatics": [
+    "/Services/Mountain": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Case-Studies/Dynamatics.js"
-    ],
-    "/Case-Studies/Fox": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Case-Studies/Fox.js"
-    ],
-    "/Case-Studies/Pan": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Case-Studies/Pan.js"
-    ],
-    "/Case-Studies/Retreeve": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Case-Studies/Retreeve.js"
-    ],
-    "/Case-Studies/Surgems": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Case-Studies/Surgems.js"
+      "static/chunks/pages/Services/Mountain.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
