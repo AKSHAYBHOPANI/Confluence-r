@@ -119,6 +119,11 @@ button:hover, .button:hover {
   color: white;
 }
 
+button:hover, .button:hover > i {
+ 
+  transition: 0.4s;
+  color: white;
+}
 .Container {
   padding: 1rem;
 }

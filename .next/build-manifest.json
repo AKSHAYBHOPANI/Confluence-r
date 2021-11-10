@@ -14,10 +14,30 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Services/Mountain": [
+    "/Case-Studies/Dynamatics": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Services/Mountain.js"
+      "static/chunks/pages/Case-Studies/Dynamatics.js"
+    ],
+    "/Case-Studies/Fox": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Case-Studies/Fox.js"
+    ],
+    "/Case-Studies/Pan": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Case-Studies/Pan.js"
+    ],
+    "/Case-Studies/Retreeve": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Case-Studies/Retreeve.js"
+    ],
+    "/Case-Studies/Surgems": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Case-Studies/Surgems.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
@@ -29,10 +49,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/services": [
+    "/case-studies": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/services.js"
+      "static/chunks/pages/case-studies.js"
     ]
   },
   "ampFirstPages": []

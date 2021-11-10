@@ -14,9 +14,11 @@ export default function Pan() {
 <div className="page">
 <h1>PAN & THE DREAM</h1>
 <p style={{textAlign:'center'}}>New York, NY</p>
+<br/>
 <div className={`${styles.responsive}`}>
 {/*<img className={styles.responsiveimg} src="/Clients/Logos/dynamatics.png"/>*/}
 <div className={styles.textArea} style={{fontSize:'1.5rem'}}>
+<br/>
 <p className={styles.responsivep}>Pan is an Art and Style print magazine that invites Artists, Writers and Photographers to share their views on a chosen subject.<br/><br/>
 </p></div>
 
@@ -41,7 +43,7 @@ export default function Pan() {
 </ul>
 
 </p>
-<br/>
+<br/><br/>
 <div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
 <a href="https://www.panandthedream.com" className="button">Visit Website <i class="fas fa-directions"></i> </a>
 <a href="/Clients/Case-Studies/Dynamatics%20Website%20Development%20Business%20Proposal.pdf" className="button">Case Study <i class="fas fa-download"></i> </a>

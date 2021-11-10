@@ -9,14 +9,15 @@ export default function Dynamatics() {
 	<Head>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet"/>
   </Head>
-<br/><br/><br/>
+<br/><br/><br/><br/>
 
 <div className="page">
 <h1>Dynamatics Technology Private Limited Case Study</h1>
-
+<br/>
 <div className={`${styles.responsive}`}>
 <img className={styles.responsiveimg} src="/Clients/Logos/dynamatics.png"/>
 <div className={styles.textArea} style={{fontSize:'1.5rem'}}>
+<br/>
 <p className={styles.responsivep}>Dynamatic Technologies Ltd. is one
 of the globally leading designer and
 manufacturer of highly engineered
@@ -50,7 +51,7 @@ current digitally competitive space.<br/><br/>
 </ul>
 
 </p>
-<br/>
+<br/><br/>
 <div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
 <a href="https://dynamatics.com" className="button">Visit Website <i class="fas fa-directions"></i> </a>
 <a href="/Clients/Case-Studies/Dynamatics%20Website%20Development%20Business%20Proposal.pdf" className="button">Case Study <i class="fas fa-download"></i> </a>

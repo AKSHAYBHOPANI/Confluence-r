@@ -9,13 +9,14 @@ export default function Cbc() {
 	<Head>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet"/>
   </Head>
-<br/><br/><br/>
+<br/><br/><br/><br/>
 
 <div className="page">
 <h1>Gehna Jewellers</h1>
-
+<br/>
 <div className={`${styles.responsive}`}>
 {<img className={styles.responsiveimg} src="/Clients/Logos/gehna.png"/>}
+<br/>
 <div className={styles.textArea} style={{fontSize:'1.5rem'}}>
 <p className={styles.responsivep}>It was in 1986, when Mr. Sunil Datwani ventured to establish Gehna Jewellers with an opulent boutique on Turner Road in Bandra, Mumbai, India, becoming a first generation entrepreneur to showcase a collection of jewels that would soon become a landmark in the jewellery industry.<br/><br/>
 </p></div>

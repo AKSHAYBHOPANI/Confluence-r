@@ -13,7 +13,7 @@ export default function Cbc() {
 
 <div className="page">
 <h1>Aastha Foundations</h1>
-
+<br/>
 <div className={`${styles.responsive}`}>
 {<img className={styles.responsiveimg} src="/Clients/Logos/aastha.png"/>}
 <div className={styles.textArea} style={{fontSize:'1.5rem'}}>
@@ -43,7 +43,7 @@ export default function Cbc() {
 </ul>
 
 </p>
-<br/>
+<br/><br/>
 <div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
 <a href="https://aasthafoundations.com/" className="button">Visit Website <i class="fas fa-directions"></i> </a>
 <a href="/Clients/Case-Studies/Dynamatics%20Website%20Development%20Business%20Proposal.pdf" className="button">Case Study <i class="fas fa-download"></i> </a>
