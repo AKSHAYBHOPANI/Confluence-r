@@ -26,9 +26,9 @@ export default function Dynamatics() {
 
 	<div class="text-wrapper">
 	
-<div  >Create Logo and Brand Image (for Packaging, Digital Presence, etc).</div>
-<div >Use Industry Researched Colours and Hues to Initiate Pull Marketing</div>
-<div  >Create Content for Social Media</div>
+<p  >Create Logo and Brand Image (for<br/> Packaging, Digital Presence, etc).</p>
+<p >Use Industry Researched Colours and<br/>  Hues to Initiate Pull Marketing</p>
+<p >Create Content for Social Media</p>
  </div>
 </div>
   </div>
@@ -45,9 +45,9 @@ export default function Dynamatics() {
 </div>
 <img  src="/Content/Premium.png" alt="Confluence Content Premium Service"/>
 	<div class="text-wrapper">
-<div  >Create / Change User Interface for any Digital Platform</div>
-<div  >Create Informercials, Ads, Videos for Promotion</div>
-<div  >Music Videos, Product Videos, Animations, etc.</div>
+<p  >Create / Change User Interface<br/>  for any Digital Platform</p>
+<p  >Create Informercials, Ads,<br/>  Videos for Promotion</p>
+<p >Music Videos, Product Videos,<br/>  Animations, etc.</p>
 
 </div><br/>
 <br/>
@@ -55,7 +55,13 @@ export default function Dynamatics() {
 
 </div>
 </div>
+<br/><br/>
+<div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
 
+<a href="/our-work" className="button">See Our Work  </a>
+<a href="/contact" className="button">Request a Quote  </a>
+</div>
+<br/><br/><br/>
 </div>
 <br/><br/><br/><br/><br/>
 	</>

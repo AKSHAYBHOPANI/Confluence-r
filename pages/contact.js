@@ -6,7 +6,7 @@ export default function Contact() {
 return (
 		<>
 		<br/><br/><br/>
-		<h1>Contact Us</h1>
+		<h1>CONTACT US</h1>
 		<div className={styles.home}>
 		<a className={`${styles.box2} ${styles.one}`}>
 <div className={`${styles.center}`}>

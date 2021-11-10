@@ -12,8 +12,6 @@ export default function Navbar() {
     <li><Link href="/our-work">OUR WORK</Link></li>
     <li><Link href="/services">SERVICES</Link></li>
     <li><Link href="/case-studies">CASE STUDIES</Link></li>
-    <li><Link href="/about">ABOUT US</Link></li>
-    <li><Link href="/careers">CAREERS</Link></li>
     <li><Link href="/contact">CONTACT US</Link></li>
   </ul>
 </header>

@@ -66,9 +66,9 @@ export default function Dynamatics() {
 <div class="wrap-container">
 
 <div class="text-wrapper">
-<div>Creating social media accounts and regulating posts</div>
-<div>Integration of all social media platforms</div>
-<div>Designing a strategic campaign</div>
+<p>Creating social media accounts and<br/> regulating posts</p>
+<p>Integration of all social media platforms</p>
+<p>Designing a strategic campaign</p>
 
 
 </div>
@@ -81,13 +81,23 @@ export default function Dynamatics() {
 
 <div class="text-wrapper">
 
-<div>Pay per click analysis</div>
-<div>Creating commercials for promotion through digital media</div>
-<div>Influencer acquisition and paid partnerships</div>
+<p>Pay per click analysis</p>
+<p>Creating commercials for<br/> promotion through digital media</p>
+<p>Influencer acquisition and<br/> paid partnerships</p>
 </div>
   </div>
 
+<br/><br/><br/><br/><br/>
+<div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
+
+<a href="/our-work" className="button">See Our Work  </a>
+<a href="/contact" className="button">Request a Quote  </a>
 </div>
+<br/><br/><br/>
+
+</div>
+
+
 <br/><br/><br/><br/><br/>
 	</>
 )};

@@ -59,9 +59,9 @@ export default function Dynamatics() {
 
 	<div class="text-wrapper">
 	
-<div  >Create  anticipating countdown with gifs and graphic along with necessary teasers and hints.</div>
-<div >Create event page on facebook or instagram with relevant buzz creating hashtag.</div>
-<div  >Create filters on Snapchat or instagram for specific event with logos and theme related colors.</div>
+<p  >Create  anticipating countdown with<br/> gifs and graphic along with necessary<br/> teasers and hints.</p>
+<p >Create event page on facebook <br/>or instagram with relevant buzz <br/>creating hashtag.</p>
+<p  >Create filters on Snapchat <br/>or instagram for specific event with<br/> logos and theme related colors.</p>
  </div>
 </div>
  <br/>
@@ -77,11 +77,18 @@ export default function Dynamatics() {
 
 	<div class="text-wrapper">
 	
-<div  >Help coordinate and manage product and service giveaways</div>
-<div >Sending invites via email and social media to necessary attendees, help to conduct interviews for reviews, etc.</div>
-<div  >Help with creating live events (interviews, auctions, meet and greet, etc).</div>
+<p  >Help coordinate and manage<br/> product and service giveaways</p>
+<p >Sending invites via email and social<br/> media to necessary attendees, help to <br/>conduct interviewsfor reviews, etc.</p>
+<p  >Help with creating live events<br/> (interviews, auctions, meet and greet, etc).</p>
  </div>
 </div>
+<br/><br/><br/>
+<div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
+
+<a href="/our-work" className="button">See Our Work  </a>
+<a href="/contact" className="button">Request a Quote  </a>
+</div>
+<br/>
  <br/>
 </div>
 <br/><br/><br/><br/><br/>
