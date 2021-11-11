@@ -46,9 +46,6 @@ export default function Dynamatics() {
 <a href="/contact" className="button">Request a Quote  </a>
 </div>
 <br/>
-<div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
-<p className={styles.titlep}>Website Maintenance<hr/></p>
-</div>
 {/*<table>
   <tr>
     <th>Company</th>
@@ -87,7 +84,7 @@ export default function Dynamatics() {
   </tr>
 </table>*/}
 
-<br/><br/><br/>
+
 {/*<p className={styles.titlep}>Why SEO is Important?<hr/></p><br/>
 </div>
 <br/>
@@ -102,6 +99,9 @@ export default function Dynamatics() {
 <p >Paid SEO such as PPC and Adwords help to optimize your website based on certain keywords that you spend money to bid on. For example, if you have an e-commerce business, you would invest your advertising budget on the keyword "buy". </p>*/}
 </div>
 </div>
+</div>
+<div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
+<p className={styles.titlep}>Website Maintenance<hr/></p>
 </div>
 <div className={styles.home}>
 <a  className={`${styles.box} ${styles.white}`}>
@@ -131,7 +131,7 @@ export default function Dynamatics() {
 	<div className={styles.middle}>
     <div className={styles.text} id="aboutc">Security </div>
   </div></a>
- <a  className={`${styles.box4} ${styles.orange} ${styles.main}`}>
+ <a  className={`${styles.box4} ${styles.lightblue} ${styles.main}`}>
 
 	<div className={styles.middle}>
     <div className={styles.text} id="aboutc">Blog posts </div>
@@ -179,7 +179,7 @@ export default function Dynamatics() {
     <div className={styles.text} id="aboutc">New feature development </div>
   </div></a>
 
- <a  className={`${styles.box4} ${styles.white} ${styles.main}`}>
+ <a  className={`${styles.box4} ${styles.lightblue} ${styles.main}`}>
 
 	<div className={styles.middle}>
     <div className={styles.text} id="aboutc">Critical support  </div>

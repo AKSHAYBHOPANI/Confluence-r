@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import styles from '../styles/home.module.css';
-import Image from 'next/image'
-
+import Image from 'next/image';
+import Link from 'next/link';
 export default function Serp() {
 
 const axios = require('axios').default;
@@ -44,7 +44,7 @@ axios.request(options).then(function (response) {
 <form onSubmit={Search}>
 <input id="keyword" type="text" name="" placeholder="Keyword" value={Keyword} onChange={(e)=> setKeyword(event.target.value)}/>
 <input id="url" type="text" name="" placeholder="URL" value={url} onChange={(e)=> seturl(event.target.value)}/>
-<button type="submit" >Go</button>
+<button className='gobutton' type="submit" >Go</button>
 <div id="logo" className="loadingio-spinner-rolling-kswyn6f3gj7"><div className="ldio-c9p079igqka">
 <div></div>
 </div></div>
@@ -55,7 +55,7 @@ axios.request(options).then(function (response) {
 	<div className="audit">
 	 <h2>You Rank at Position {Results.data.position} for Keyword {Keyword} as checked in {Results.data.searched_results} search results</h2>
 	 <p>We can help you improve your Google Search Rankings with our Website Solutions</p><br/>
-	 <a href='./contact' className='button'>Contact Us</a>;
+	 <Link href='/contact' ><a className='button'>Contact Us</a></Link>;
 	</div>
 )}
 		</>

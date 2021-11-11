@@ -16,7 +16,7 @@ export default function Dynamatics() {
 <br/>
 <div className={`${styles.responsive}`}>
 <img className={styles.responsiveimg} src="/Clients/Logos/dynamatics.png"/>
-<div className={styles.textArea} style={{fontSize:'1.5rem'}}>
+<div className={styles.textArea} style={{fontSize:'1.1rem'}}>
 <br/>
 <p className={styles.responsivep}>Dynamatic Technologies Ltd. is one
 of the globally leading designer and
