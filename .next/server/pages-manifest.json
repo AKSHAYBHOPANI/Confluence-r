@@ -2,6 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Services/Mountain": "pages/Services/Mountain.js",
-  "/case-studies": "pages/case-studies.js"
+  "/Case-Studies/Dynamatics": "pages/Case-Studies/Dynamatics.js",
+  "/Case-Studies/Pan": "pages/Case-Studies/Pan.js",
+  "/our-work": "pages/our-work.js",
+  "/case-studies": "pages/case-studies.js",
+  "/services": "pages/services.js",
+  "/Services/Mountain": "pages/Services/Mountain.js"
 }

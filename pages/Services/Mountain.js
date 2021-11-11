@@ -102,7 +102,7 @@ export default function Dynamatics() {
 <p >Paid SEO such as PPC and Adwords help to optimize your website based on certain keywords that you spend money to bid on. For example, if you have an e-commerce business, you would invest your advertising budget on the keyword "buy". </p>*/}
 </div>
 </div>
-
+</div>
 <div className={styles.home}>
 <a  className={`${styles.box} ${styles.white}`}>
 	
@@ -119,18 +119,18 @@ export default function Dynamatics() {
 	<div className={styles.middle}>
     <div className={styles.text} id="abouto">Backups </div>
   </div></a>
-  <a  className={`${styles.box4} ${styles.orange} ${styles.main}`}>
-
-	<div className={styles.middle}>
-    <div className={styles.text} id="aboutc">Security </div>
-  </div></a>
+ 
 
 <a  className={`${styles.box5} ${styles.yellow} ${styles.main}`}>
 
 	<div className={styles.middle}>
     <div className={styles.text} id="aboutc">Google Analytics Report </div>
   </div></a>
+ <a  className={`${styles.box4} ${styles.orange} ${styles.main}`}>
 
+	<div className={styles.middle}>
+    <div className={styles.text} id="aboutc">Security </div>
+  </div></a>
  <a  className={`${styles.box4} ${styles.orange} ${styles.main}`}>
 
 	<div className={styles.middle}>
@@ -155,7 +155,11 @@ export default function Dynamatics() {
 	<div className={styles.middle}>
     <div className={styles.text} id="aboutc">Product Updates </div>
   </div></a>
+ <a  className={`${styles.box6} ${styles.lightblue} ${styles.main}`}>
 
+	<div className={styles.middle}>
+    <div className={styles.text} id="aboutc">Design consultation   </div>
+  </div></a>
  <a  className={`${styles.box7} ${styles.orange} ${styles.main}`}>
 
 	<div className={styles.middle}>
@@ -163,7 +167,7 @@ export default function Dynamatics() {
   </div></a>
 
 
- <a  className={`${styles.box7} ${styles.yellow} ${styles.main}`}>
+ <a  className={`${styles.box9} ${styles.yellow} ${styles.main}`}>
 
 	<div className={styles.middle}>
     <div className={styles.text} id="aboutc">Graphic updates - products, banners, etc </div>
@@ -181,18 +185,16 @@ export default function Dynamatics() {
     <div className={styles.text} id="aboutc">Critical support  </div>
   </div></a>
 
-  <a  className={`${styles.box4} ${styles.orange} ${styles.main}`}>
-
-	<div className={styles.middle}>
-    <div className={styles.text} id="aboutc">Phone support  </div>
-  </div></a>
-
  <a  className={`${styles.box8} ${styles.yellow} ${styles.main}`}>
 
 	<div className={styles.middle}>
     <div className={styles.text} id="aboutc">Integration and maintenance of third party systems and services </div>
   </div></a>
+ <a  className={`${styles.box4} ${styles.orange} ${styles.main}`}>
 
+	<div className={styles.middle}>
+    <div className={styles.text} id="aboutc">Phone support  </div>
+  </div></a>
    <a  className={`${styles.box6} ${styles.lightblue} ${styles.main}`}>
 
 	<div className={styles.middle}>
@@ -210,7 +212,7 @@ export default function Dynamatics() {
 
 
 <br/>
-</div>
+
 <br/><br/><br/><br/><br/>
 	</>
 )};
