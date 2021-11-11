@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+.body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Lato;
+  box-sizing: border-box;
+}
+
+.main {
+  display: grid;
+  place-items: center;
+}
+
+.home {
+	width: 100%;
+	height: 78vh;
+  padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    background-image: url(/Services/bg.png);
+    object-fit: cover;
+    background-position: center;
+  }
+
+.box {
+  
+  width: 50%;
+  height: 40%;
+  position: relative;
+}
+
+.box2 {
+  width: 50%;
+  height: 40%;
+  position: relative;
+ 
+}
+
+.box3 {
+  width: 50%;
+  height: 40%;
+  position: relative;
+}
+
+.box4 {
+  width: 50%;
+  height: 40%;
+  position: relative;
+}
+
+/*.box {
+  
+  width: 50%;
+  height: 50%;
+  position: relative;
+}
+
+.box2 {
+  width: 50%;
+  height: 50%;
+  position: relative;
+}*/
+
+
+.purple {
+	background-color: purple;
+	color: white;
+	display: block;
+	transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.pink {
+  background-color: var(--SERP);
+  color: white;
+  display: block;
+  transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.lightblue {
+  background-color: var(--a1);
+  color: white;
+  display: block;
+  transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.yellow {
+	background-color: var(--a2);
+	display: block;
+	transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.orange {
+	background-color: var(--a3);
+	color: white;
+	display: block;
+	transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.white {
+	background-color: var(--a4);
+	display: block;
+	transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.box:hover .blue .white .black .lightblue {
+  opacity: 0.3;
+}
+
+.box:hover .middle {
+  opacity: 1;
+}
+
+.box2:hover .blue .white .black .lightblue {
+  opacity: 0.3;
+}
+
+.box2:hover .middle {
+  opacity: 1;
+}
+
+.box3:hover .blue .white .black .lightblue {
+  opacity: 0.3;
+}
+
+.box3:hover .middle {
+  opacity: 1;
+}
+
+.box4:hover .blue .white .black .lightblue {
+  opacity: 0.3;
+}
+
+.box4:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  
+  font-weight: bold;
+  font-size: 2rem;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.text:hover {
+  color: grey;
+  
+  font-weight: bold;
+  font-size: 1rem;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: justify;
+  padding: 1rem;
+}
+
+.icon {
+  width: 10%;
+  position: absolute;
+  bottom: 0;
+}
+
+.iconn {
+  position: absolute;
+  bottom: 3%;
+  left: 3%;
+  font-size: 3rem;
+}
+
+.iconn > i {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+.home {
+  padding-top: 10rem;
+}
+
+	.box {
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+
+.box2 {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  top: unset;
+}
+
+.box3 {
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+
+.box4 {
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+   .middle {
+	opacity: 1;
+
+	}
+  .iconn {
+  position: absolute;
+  bottom: 3%;
+  left: 3%;
+  font-size: 2rem;
+}
+}
+
+.body {
+-webkit-user-select: none!important;  /* Chrome all / Safari all */
+-moz-user-select: none!important;     /* Firefox all */
+-ms-user-select: none!important;      /* IE 10+ */
+-o-user-select: none!important;
+user-select: none!important;
+}
+
