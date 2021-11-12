@@ -2,7 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/our-work": "pages/our-work.js",
   "/case-studies": "pages/case-studies.js",
+  "/about": "pages/about.js",
+  "/services": "pages/services.js",
+  "/our-work": "pages/our-work.js",
+  "/contact": "pages/contact.js",
   "/": "pages/index.js"
 }
