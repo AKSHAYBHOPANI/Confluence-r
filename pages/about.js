@@ -83,7 +83,7 @@ document.getElementById("abouto").addEventListener("mouseleave",UpdateTitleOR);
   <a  className={`${styles.box4} ${styles.orange} ${styles.main}`}>
 	{<div className={styles.iconn}><i class="fab fa-confluence"></i></div>}
 	<div className={styles.middle}>
-    <div className={styles.text} id="aboutc">CONFLUENCE-R</div>
+    <div className={styles.text} id="aboutc" style={{textAlign:'center'}}>CONFLUENCE-R</div>
   </div></a>
 
 {/*<div className={styles.home}>

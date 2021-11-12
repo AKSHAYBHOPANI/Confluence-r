@@ -4,7 +4,7 @@
 }
 
 .home {
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
   padding-bottom: 2rem;
     display: flex;
@@ -158,7 +158,6 @@
 }
 
 .box2 {
-  
   width: 100%;
   height: 35%;
   position: relative;

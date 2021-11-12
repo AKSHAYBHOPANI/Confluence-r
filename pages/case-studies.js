@@ -17,12 +17,12 @@ export default function OurWork(theme) {
 
 <Link href="/Case-Studies/Dynamatics"><a className={`${styles.box2} ${styles.one}`}>
 <div className={`${styles.center}`}>
-<Image layout="fixed" width={350} height={70} src="/Clients/Logos/dynamatics.png"/>
+<Image layout="fixed" width={300} height={60} src="/Clients/Logos/dynamatics.png"/>
 </div>
 </a></Link>
 <Link href="/Case-Studies/Pan"><a className={`${styles.box2} ${styles.two}`}>
-<h1 style={{fontSize:'2.1rem', position:'relative',top:'40%', left:'50%', transform:'translate(-50%,-50%)'}} >PAN & THE DREAM</h1>
-<p style={{position:'relative',top:'20%', left:'50%', transform:'translate(-10%,-10%)'}} >New York, NY</p>
+<h1 style={{fontSize:'2rem', position:'relative',top:'40%', left:'50%', transform:'translate(-50%,-50%)'}} >PAN & THE DREAM</h1>
+<p style={{position:'absolute',top:'59%', left:'50%', transform:'translate(-50%,-50%)'}} >New York, NY</p>
 </a></Link>
 <Link href="/Case-Studies/Cbc"><a className={`${styles.box} ${styles.seven}`}>
 <div className={`${styles.center}`}>
