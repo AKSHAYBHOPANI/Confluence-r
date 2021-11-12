@@ -29,7 +29,7 @@
    --s2:#f8d8dc;
    --s3: #f2ccd0;
    --s4:#E39FF6;
-   --a1:#e2effa;
+    --a1:#e2effa;
    --a2:#efe3fc;
    --a3:#e8eaf8;
    --a4:#d3d3f0;
@@ -59,6 +59,10 @@
     --c1:#c4e9ff;
    --c2:#dbf2ff;
    --c3:#b2cedf;
+    --s1: #f4d0d5;
+   --s2:#f7d1d5;
+   --s3: #e6b6bc;
+   --s4:#f2a8b6;
    --a1:#d5e0f8;
    --a2:#ecddfd ;
    --a3:#d8daf6;
@@ -241,7 +245,7 @@ color: var(--secondary-color);
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+  max-height: 100%;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
