@@ -124,7 +124,7 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  
+  transition: all 1s;
   width: 100%;
   height: 100%;
   cursor: pointer;
@@ -164,7 +164,7 @@
 
 .text {
   color: white;
-  
+  transition: all 1s;
   font-weight: bold;
   font-size: 3rem;
   position: relative;
