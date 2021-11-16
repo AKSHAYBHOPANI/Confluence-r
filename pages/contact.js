@@ -20,19 +20,19 @@ return (
 	
 <div className="mc-field-group">
 	
-	<input type="text" value="" name="MMERGE3"  id="mce-MMERGE3" placeholder="Name"/>
+	<input type="text"  name="MMERGE3"  id="mce-MMERGE3" placeholder="Name"/>
 </div>
 <div className="mc-field-group">
 	
-	<input type="email" value="" name="EMAIL" className="required email" id="mce-EMAIL" placeholder="Email" />
+	<input type="email"  name="EMAIL" className="required email" id="mce-EMAIL" placeholder="Email" />
 </div>
 <div className="mc-field-group">
 	
-	<input type="text" name="MMERGE1" className="" value="" id="mce-MMERGE1" placeholder="Phone" />
+	<input type="text" name="MMERGE1" className="" id="mce-MMERGE1" placeholder="Phone" />
 </div>
 <div className="mc-field-group">
 	
-	<input type="text" value="" name="MMERGE2" className="" id="mce-MMERGE2" placeholder="Message" style={{height: '100px'}}/>
+	<input type="text"  name="MMERGE2" className="" id="mce-MMERGE2" placeholder="Message" style={{height: '100px'}}/>
 </div>
 <div className="mc-field-group">
 	<label htmlFor="mce-MMERGE4" style={{textAlign: 'left'}}>Which Package Interests You?</label>
