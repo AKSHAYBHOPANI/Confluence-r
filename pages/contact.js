@@ -72,7 +72,7 @@ return (
 
 <a className={`${styles.box} ${styles.seven}`}>
 <h3>ADDRESS</h3>
-<div style={{paddingLeft: '5%', position:'relative', top:'50%', left:'50%', transform:'translate(-50%,-50%)'}}>
+<div style={{padding: '5%', position:'relative', top:'75%', left:'50%', transform:'translate(-50%,-50%)', lineHeight:'2rem'}}>
 
 <div style={{textAlign: 'left', lineHeight: 'unset'}}>
 <br/>
@@ -82,7 +82,7 @@ return (
 <i className="fas fa-mobile fa-lg" style={{paddingRight:'10px'}}><span>  Phone : <a href="tel:+919820202145">+91 9820202145</a></span></i>
 <i className="fas fa-envelope fa-lg" style={{paddingRight:'10px'}} ><span>    E-Mail : <a href="mailto:info@confluence-r.com">info@confluence-r.com</a></span></i>
 <i className="fas fa-clock fa-lg" style={{paddingRight:'10px'}} > <span>  Mon - Sat  : 11am to 5pm (Sunday Closed)</span></i>
-<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
 </div></div>
 </a>
 
