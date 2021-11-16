@@ -20,7 +20,7 @@ var navbar = document.querySelector('.header');
      <Head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </Head>
-   <div class="container">
+   <div className="container">
 {/*<nav class="header__nav nav-bar">
     <div class="toggle-menu">
       <div class="line line1"></div>
@@ -44,7 +44,7 @@ var navbar = document.querySelector('.header');
 		<Image layout="fill" src={`/light/uparrow${theme.theme}.gif`}/><div className={styles.middle}>
     <div className={styles.text} id="home">HOME</div>
   </div></a>
-	<Link href="./about"><a className={`${styles.box} ${styles.white}`}>
+	<Link href="/about"><a className={`${styles.box} ${styles.white}`}>
 	<Image layout="fill" src={`/light/about${theme.theme}.gif`}/>
 		<div className={styles.middle}>
     <div className={styles.text} id="about">ABOUT US</div>
@@ -82,7 +82,7 @@ var navbar = document.querySelector('.header');
     <div className={styles.text} id="contact-us">CONTACT US</div>
   </div></a></Link>
  
-<a class="arrow" href="#programmes"><i class="fas fa-angle-down"></i></a>
+<a className="arrow" href="#programmes"><i className="fas fa-angle-down"></i></a>
 </div>
 
   	)

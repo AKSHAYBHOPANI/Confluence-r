@@ -4,11 +4,11 @@ import Link from "next/link";
 export default function Navbar() {
 	return (
 
-<header class="header">
-  <a href="/" class="logo"><Image src="/logo.png" width="150px" height="50%"/></a>
-  <input class="menu-btn" type="checkbox" id="menu-btn" />
-  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-  <ul class="menu">
+<header className="header">
+  <a href="/" className="logo"><Image src="/logo.png" width="150px" height="50%"/></a>
+  <input className="menu-btn" type="checkbox" id="menu-btn" />
+  <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
+  <ul className="menu">
   <li><Link href="/">HOME</Link></li>
   <li><Link href="/about">ABOUT US</Link></li>
     <li><Link href="/our-work">OUR WORK</Link></li>

@@ -45,7 +45,7 @@ export default function Cbc() {
 <br/>
 <div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
 <a href="https://www.instagram.com/devijewelsbyradhikac/" className="button">Visit Instagram <i class="fab fa-instagram"></i> </a>
-<a href="/Clients/Case-Studies/Devi_Jewelers_Logo.pdf" className="button">Case Study <i class="fas fa-download"></i> </a>
+{/*<a href="/Clients/Case-Studies/Devi_Jewelers_Logo.pdf" className="button">Case Study <i class="fas fa-download"></i> </a>*/}
 
 </div>
 </div>

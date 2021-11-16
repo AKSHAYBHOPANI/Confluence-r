@@ -46,7 +46,7 @@ export default function Cbc() {
 <br/><br/>
 <div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
 <a href="https://aasthafoundations.com/" className="button">Visit Website <i class="fas fa-directions"></i> </a>
-<a href="/Clients/Case-Studies/Dynamatics%20Website%20Development%20Business%20Proposal.pdf" className="button">Case Study <i class="fas fa-download"></i> </a>
+{/*<a href="/Clients/Case-Studies/Dynamatics%20Website%20Development%20Business%20Proposal.pdf" className="button">Case Study <i class="fas fa-download"></i> </a>*/}
 
 </div>
 </div>

@@ -8,17 +8,17 @@ const toggleSwitch = document.getElementById('checkbox');
 const toggleIcon = document.getElementById('toggle-icon');
 let Time = new Date;
 Time = Time.getHours()
-console.log(Time)
+// console.log(Time)
 
 function automaticToggle() {
   if (Time>=18) {
       darkMode();
-    console.log('Night');
+    // console.log('Night');
     toggleSwitch.checked = true;
    
   } else {
     lightMode();
-    console.log('Morning');
+    // console.log('Morning');
     toggleSwitch.checked = false;
   }
 }

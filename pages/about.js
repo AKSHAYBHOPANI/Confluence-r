@@ -66,22 +66,22 @@ document.getElementById("abouto").addEventListener("mouseleave",UpdateTitleOR);
 
 <div className={styles.home}>
 <a className={`${styles.box} ${styles.white}`}>
-	{<div className={styles.iconn}><i class="far fa-handshake"></i></div>}
+	{<div className={styles.iconn}><i className="far fa-handshake"></i></div>}
 		<div className={styles.middle}>
     <div className={styles.text} id="aboutm">Where People Meet Strategy</div>
   </div>
 	</a>
 <a className={`${styles.box2} ${styles.yellow} ${styles.main}`}>
-		{<div className={styles.iconn}><i class="far fa-check-circle"></i></div>}<div className={styles.middle}>
+		{<div className={styles.iconn}><i className="far fa-check-circle"></i></div>}<div className={styles.middle}>
     <div className={styles.text} id="aboutme">Where Purpose Meets People</div>
   </div></a>
 <a  className={`${styles.box3} ${styles.lightblue} ${styles.main}`}>
-	{<div className={styles.iconn}><i class="far fa-chart-bar"></i></div>}
+	{<div className={styles.iconn}><i className="far fa-chart-bar"></i></div>}
 	<div className={styles.middle}>
     <div className={styles.text} id="abouto">Where Marketing Meets Purpose</div>
   </div></a>
   <a  className={`${styles.box4} ${styles.orange} ${styles.main}`}>
-	{<div className={styles.iconn}><i class="fab fa-confluence"></i></div>}
+	{<div className={styles.iconn}><i className="fab fa-confluence"></i></div>}
 	<div className={styles.middle}>
     <div className={styles.text} id="aboutc" style={{textAlign:'center'}}>CONFLUENCE-R</div>
   </div></a>

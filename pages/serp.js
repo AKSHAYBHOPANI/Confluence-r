@@ -40,10 +40,10 @@ axios.request(options).then(function (response) {
   	<>
  {!Results ? (
 <div className="audit">
-<h2 style={{color:"white;"}}>Analyze Your Website&apos;s Search Engine Page Ranking [SERP]</h2>
+<h2 style={{color:"white"}}>Analyze Your Website&apos;s Search Engine Page Ranking [SERP]</h2>
 <form onSubmit={Search}>
-<input id="keyword" type="text" name="" placeholder="Keyword" value={Keyword} onChange={(e)=> setKeyword(event.target.value)}/>
-<input id="url" type="text" name="" placeholder="URL" value={url} onChange={(e)=> seturl(event.target.value)}/>
+<input id="keyword" type="text" name="" placeholder="Keyword" value={Keyword} onChange={(e)=> setKeyword(event.target.value)} required/>
+<input id="url" type="text" name="" placeholder="URL" value={url} onChange={(e)=> seturl(event.target.value)} required/>
 <button className='gobutton' type="submit" >Go</button>
 <div id="logo" className="loadingio-spinner-rolling-kswyn6f3gj7"><div className="ldio-c9p079igqka">
 <div></div>
