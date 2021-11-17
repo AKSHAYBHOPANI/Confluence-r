@@ -16,7 +16,7 @@ export default function Cbc() {
 <p style={{textAlign:'center'}}>London, UK</p>
 <div className={`${styles.responsive}`}>
 {<img className={styles.responsiveimg} src="/Clients/Logos/devi.png"/>}
-<div className={styles.textArea} style={{fontSize:'1.5rem'}}>
+<div className={styles.textArea} style={{fontSize:'1.1rem'}}>
 <p className={styles.responsivep}>Devi Jewels is inspired by a passion, creativity and love for jewellery. Every jewel is made as tresured heirloom, with every stone telling a story and conveying a feeling beyond the sparkel. Devi jewels is a celebration of women. This philosophy is at the core of all Devi Collections , designed as symbolic reminders of our loved ones, our culture and history. Each piece celebrates and brings out the real you; it's a Devi Jewels promise.<br/><br/>
 </p></div>
 

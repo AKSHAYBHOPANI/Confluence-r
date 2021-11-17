@@ -16,7 +16,7 @@ export default function Cbc() {
 <p style={{textAlign:'center'}}>Dubai, UAE</p>
 <div className={`${styles.responsive}`}>
 {<img className={styles.responsiveimg} src="/Clients/Logos/fox.png"/>}
-<div className={styles.textArea} style={{fontSize:'1.5rem'}}>
+<div className={styles.textArea} style={{fontSize:'1.1rem'}}>
 <p className={styles.responsivep}>We began this company to create a unique buyer/seller platform by utilising our distinguished network to its maximum capability. We work as commission agents, deal sources, and the first line of command for diligence and excellence for all our clients.<br/><br/>
 </p></div>
 

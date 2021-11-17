@@ -17,7 +17,7 @@ export default function Cbc() {
 <div className={`${styles.responsive}`}>
 {<img className={styles.responsiveimg} src="/Clients/Logos/gehna.png"/>}
 <br/>
-<div className={styles.textArea} style={{fontSize:'1.5rem'}}>
+<div className={styles.textArea} style={{fontSize:'1.1rem'}}>
 <p className={styles.responsivep}>It was in 1986, when Mr. Sunil Datwani ventured to establish Gehna Jewellers with an opulent boutique on Turner Road in Bandra, Mumbai, India, becoming a first generation entrepreneur to showcase a collection of jewels that would soon become a landmark in the jewellery industry.<br/><br/>
 </p></div>
 

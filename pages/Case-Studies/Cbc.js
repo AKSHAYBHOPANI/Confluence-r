@@ -17,7 +17,7 @@ export default function Cbc() {
 <div className={`${styles.responsive}`}>
 {<img className={styles.responsiveimg} src="/Clients/Logos/cbc.png"/>}
 <br/>
-<div className={styles.textArea} style={{fontSize:'1.5rem'}}>
+<div className={styles.textArea} style={{fontSize:'1.1rem'}}>
 <p className={styles.responsivep}>Since 1914, C Bhogilal & Co. Fort (CBC) has helped create spaces that have ensured a luxurious start every morning. From humble beginnings as a tiles and marble provider, CBC has evolved into a premium lifestyle destination synonymous with innovation and exclusivity. Founded by Mr. Bhogilal Nanalal Shah, CBC has successfully thrived under the subsequent management of Mr. Kantilal Bhogilal Shah, and presently under Mr. Pinakin Shah and Mr. Viral Pinakin Shah. Being one of the oldest lifestyle brands of the city, CBC is proud to have introduced Mumbai to the world of global luxury.<br/><br/>
 </p></div>
 

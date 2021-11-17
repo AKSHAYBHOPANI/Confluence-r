@@ -17,7 +17,7 @@ export default function Pan() {
 <br/>
 <div className={`${styles.responsive}`}>
 {/*<img className={styles.responsiveimg} src="/Clients/Logos/dynamatics.png"/>*/}
-<div className={styles.textArea} style={{fontSize:'1.5rem'}}>
+<div className={styles.textArea} style={{fontSize:'1.1rem'}}>
 <br/>
 <p className={styles.responsivep}>Pan is an Art and Style print magazine that invites Artists, Writers and Photographers to share their views on a chosen subject.<br/><br/>
 </p></div>

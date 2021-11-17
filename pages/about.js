@@ -34,7 +34,7 @@ function UpdateTitleC() {
 function UpdateTitleCR() {
 
 	let aboutm = document.getElementById("aboutc");
-	aboutm.innerText = "CONFLUENCE-R";
+	aboutm.innerText = "Where Business Means Marketing";
 }
 function UpdateTitleO() {
 
@@ -92,7 +92,7 @@ document.getElementById("abouto").addEventListener("mouseleave",UpdateTitleOR);
   <a  className={`${styles.box4} ${styles.orange} ${styles.main}`}>
 	{<div className={styles.iconn}><i className="fab fa-confluence"></i></div>}
 	<div className={styles.middle}>
-    <div className={styles.text} id="aboutc" style={{textAlign:'center'}}>CONFLUENCE-R</div>
+    <div className={styles.text} id="aboutc" style={{textAlign:'center'}}>Where Business Means Marketing</div>
   </div></a>
 
 {/*<div className={styles.home}>

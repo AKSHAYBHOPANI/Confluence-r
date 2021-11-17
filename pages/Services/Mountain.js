@@ -208,7 +208,10 @@ export default function Dynamatics() {
   </div></a>
 
   </div>
+<div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
 
+<a href="/Docs/Website_Maintenance_Quote.docx" className="button">Get Maintenance Quote  </a>
+</div>
 
 
 <br/>

@@ -16,7 +16,7 @@ export default function Cbc() {
 
 <div className={`${styles.responsive}`}>
 {<img className={styles.responsiveimg} src="/Clients/Logos/Surgems.png"/>}
-<div className={styles.textArea} style={{fontSize:'1.5rem'}}>
+<div className={styles.textArea} style={{fontSize:'1.1rem'}}>
 <p className={styles.responsivep}>Sur Gems (headquartered in Mumbai), has been providing consistent quality services, since 1971. The fibre of Sur Gems is built by starting where others give up. We introduce ourselves as a resource in this globally connected arena. We have a large variety of certified and non certified stones for you to choose from.<br/><br/>
 </p></div>
 
