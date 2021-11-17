@@ -1,7 +1,9 @@
 import {useState, useEffect} from 'react';
 import Image from 'next/image';
 import styles from '../styles/about.module.css';
-import Link from "next/link"
+import Link from "next/link";
+import Head from "next/head";
+
 export default function About() {
 useEffect(() => {
 function UpdateTitleM() {
@@ -55,7 +57,14 @@ document.getElementById("abouto").addEventListener("mouseleave",UpdateTitleOR);
 });
 	return (
 	<>
-
+<Head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet"/>
+  <title>Confluence-r | About Us</title>
+  <link rel="icon" href="/favicon.png" />
+  <meta name="description" content="We define ourselves as a digital marketing agency that is made up of dynamic thinkers, creative producers, and new age content developers who are able to understand and analyse demographics and real world user experiences."/>
+  <link rel="canonical" href="https://confluence-r.com/about"/>
+  <meta name="keywords" content="Digital Marketing Agency Services, Best Digital Marketing Agency In Mumbai, Digital Marketing Services In Mumbai, Digital Marketing Agency For Small Business"/>
+  </Head>
 
 
 <br/>

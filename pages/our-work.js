@@ -1,10 +1,19 @@
 import Image from 'next/image';
 import styles from '../styles/work.module.css';
-import Link from "next/link"
+import Link from "next/link";
+import Head from 'next/head';
+
 export default function OurWork() {
 	return (
 	<>
-
+<Head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet"/>
+  <title>Confluence-r | Our Work</title>
+  <link rel="icon" href="/favicon.png" />
+  <meta name="description" content="Our purpose is to provide you with the most efficient and creative product catered specifically to your industry, target demographic, and company vision."/>
+  <link rel="canonical" href="https://confluence-r.com/our-work"/>
+  <meta name="keywords" content="Digital Marketing Agency Services, Best Digital Marketing Agency In Mumbai, Digital Marketing Services In Mumbai, Digital Marketing Agency For Small Business, Confluence-r work"/>
+  </Head>
 
 
 <br/><br/><br/>

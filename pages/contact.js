@@ -1,10 +1,19 @@
 import Image from 'next/image';
-import Link from "next/link"
+import Link from "next/link";
 import styles from '../styles/contact.module.css';
+import Head from 'next/head';
 
 export default function Contact() {
 return (
 		<>
+		<Head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet"/>
+  <title>Confluence-r | Contact Us</title>
+  <link rel="icon" href="/favicon.png" />
+  <meta name="description" content="We not only fulfil your requirements, but also go over and above the need of the hour to give you something you can be proud of. We are the meeting point between you and your customer."/>
+  <link rel="canonical" href="https://confluence-r.com/contact"/>
+  <meta name="keywords" content="Digital Marketing Agency Services, Best Digital Marketing Agency In Mumbai, Digital Marketing Services In Mumbai, Digital Marketing Agency For Small Business"/>
+  </Head>
 		<br/><br/><br/>
 		<h1>CONTACT US</h1>
 		<div className={styles.home}>

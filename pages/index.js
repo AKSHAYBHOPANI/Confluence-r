@@ -17,8 +17,13 @@ var navbar = document.querySelector('.header');
 
   return (
   	<div className={styles.home}>
-     <Head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <Head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet"/>
+  <title>Confluence-r</title>
+  <link rel="icon" href="/favicon.png" />
+  <meta name="description" content="We define ourselves as a digital marketing agency that is made up of dynamic thinkers, creative producers, and new age content developers who are able to understand and analyse demographics and real world user experiences."/>
+  <link rel="canonical" href="https://confluence-r.com"/>
+  <meta name="keywords" content="Digital Marketing Agency Services, Best Digital Marketing Agency In Mumbai, Digital Marketing Services In Mumbai, Digital Marketing Agency For Small Business"/>
   </Head>
    <div className="container">
 {/*<nav class="header__nav nav-bar">
