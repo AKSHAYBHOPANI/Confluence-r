@@ -22,9 +22,9 @@ export default function Pan() {
 <p className={styles.responsivep}>Pan is an Art and Style print magazine that invites Artists, Writers and Photographers to share their views on a chosen subject.<br/><br/>
 </p></div>
 
-<div style={{textAlign:'center'}}>
+<div className="icon-cont">
 <h2>Feature Highlights</h2>
-</div>
+
 <div className={styles.textArea}>
 <p>
 <ul className={styles.ulp} >
@@ -42,7 +42,7 @@ export default function Pan() {
 
 </ul>
 
-</p>
+</p></div>
 <br/><br/>
 <div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
 <a href="https://www.panandthedream.com" className="button">Visit Website <i class="fas fa-directions"></i> </a>{/*

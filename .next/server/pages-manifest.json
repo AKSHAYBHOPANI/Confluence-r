@@ -3,5 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/Case-Studies/Pan": "pages/Case-Studies/Pan.js",
-  "/Case-Studies/Cbc": "pages/Case-Studies/Cbc.js"
+  "/": "pages/index.js"
 }

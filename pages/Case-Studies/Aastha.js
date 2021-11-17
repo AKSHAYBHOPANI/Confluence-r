@@ -20,9 +20,8 @@ export default function Cbc() {
 <p className={styles.responsivep}>Since he was three years old, the grandson of Dr. Sheth, Arhan Shah has been part of various charitable organizations either by donating every single birthday gift he has received through the years, or going every week to organizations where he knew he could put his skills to use, he has managed to foster a community of togetherness and generosity within his circles. Since he has been exposed to the meaning of actually helpful charitable work, he has taken the torch from his grandfather to create some modern and useful programs for children in areas of the social service community that require the most help – mental and physical health. Aastha is the platform through which, in these trying times, he is able to bring that community online and make it easier for the children to access information, activities, and funds to which they otherwise have very little access to.<br/><br/>
 </p></div>
 
-<div style={{textAlign:'center'}}>
+<div className="icon-cont">
 <h2>Feature Highlights</h2>
-</div>
 <div className={styles.textArea}>
 <p>
 <ul className={styles.ulp} >
@@ -42,7 +41,7 @@ export default function Cbc() {
 
 </ul>
 
-</p>
+</p></div>	
 <br/><br/>
 <div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
 <a href="https://aasthafoundations.com/" className="button">Visit Website <i class="fas fa-directions"></i> </a>

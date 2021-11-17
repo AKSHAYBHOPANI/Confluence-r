@@ -14,10 +14,10 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Case-Studies/Cbc": [
+    "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Case-Studies/Cbc.js"
+      "static/chunks/pages/index.js"
     ],
     "/Case-Studies/Pan": [
       "static/chunks/webpack.js",

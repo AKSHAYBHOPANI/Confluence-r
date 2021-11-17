@@ -19,10 +19,9 @@ export default function Cbc() {
 <div className={styles.textArea} style={{fontSize:'1.1rem'}}>
 <p className={styles.responsivep}>Devi Jewels is inspired by a passion, creativity and love for jewellery. Every jewel is made as tresured heirloom, with every stone telling a story and conveying a feeling beyond the sparkel. Devi jewels is a celebration of women. This philosophy is at the core of all Devi Collections , designed as symbolic reminders of our loved ones, our culture and history. Each piece celebrates and brings out the real you; it's a Devi Jewels promise.<br/><br/>
 </p></div>
-
-<div style={{textAlign:'center'}}>
+<div className="icon-cont">
 <h2>Feature Highlights</h2>
-</div>
+
 <div className={styles.textArea}>
 <p>
 <ul className={styles.ulp} >
@@ -41,7 +40,7 @@ export default function Cbc() {
 
 </ul>
 
-</p>
+</p></div>
 <br/>
 <div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
 <a href="https://www.instagram.com/devijewelsbyradhikac/" className="button">Visit Instagram <i class="fab fa-instagram"></i> </a>

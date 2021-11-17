@@ -22,9 +22,9 @@ export default function Retreeve() {
 Today, the need for the hour is to reduce, reuse, and recycle. Keeping with this, “Retreeve” has a range of sustainable and eco-friendly bedding that gives nature a chance to breathe. Experience a low impact life, without compromising on the quality of sleep. It takes about 2,000 chemicals (including carcinogens), many gallons of water, and tons of solid waste to transform raw materials into a few meters of fabric.“Retreeve” recycles pre-consumer waste to save our precious natural resources and minimize our ecological footprint.<br/><br/>
 </p></div>
 
-<div style={{textAlign:'center'}}>
+<div className="icon-cont">
 <h2>Feature Highlights</h2>
-</div>
+
 <div className={styles.textArea}>
 <p>
 <ul className={styles.ulp} >
@@ -44,7 +44,7 @@ Today, the need for the hour is to reduce, reuse, and recycle. Keeping with this
 
 </ul>
 
-</p>
+</p></div>
 <br/><br/>
 <div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
 <a href="https://retreeve.club/" className="button">Visit Website <i class="fas fa-directions"></i> </a>

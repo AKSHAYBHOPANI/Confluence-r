@@ -21,9 +21,9 @@ export default function Cbc() {
 <p className={styles.responsivep}>It was in 1986, when Mr. Sunil Datwani ventured to establish Gehna Jewellers with an opulent boutique on Turner Road in Bandra, Mumbai, India, becoming a first generation entrepreneur to showcase a collection of jewels that would soon become a landmark in the jewellery industry.<br/><br/>
 </p></div>
 
-<div style={{textAlign:'center'}}>
+<div className="icon-cont">
 <h2>Feature Highlights</h2>
-</div>
+
 <div className={styles.textArea}>
 <p>
 <ul className={styles.ulp} >
@@ -43,7 +43,7 @@ export default function Cbc() {
 
 </ul>
 
-</p>
+</p></div>
 <br/>
 <div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
 <a href="https://shop.gehnajewellers.com/" className="button">Visit Website <i class="fas fa-directions"></i> </a>

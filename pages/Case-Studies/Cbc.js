@@ -21,9 +21,9 @@ export default function Cbc() {
 <p className={styles.responsivep}>Since 1914, C Bhogilal & Co. Fort (CBC) has helped create spaces that have ensured a luxurious start every morning. From humble beginnings as a tiles and marble provider, CBC has evolved into a premium lifestyle destination synonymous with innovation and exclusivity. Founded by Mr. Bhogilal Nanalal Shah, CBC has successfully thrived under the subsequent management of Mr. Kantilal Bhogilal Shah, and presently under Mr. Pinakin Shah and Mr. Viral Pinakin Shah. Being one of the oldest lifestyle brands of the city, CBC is proud to have introduced Mumbai to the world of global luxury.<br/><br/>
 </p></div>
 
-<div style={{textAlign:'center'}}>
+<div className="icon-cont">
 <h2>Feature Highlights</h2>
-</div>
+
 <div className={styles.textArea}>
 <p>
 <ul className={styles.ulp} >
@@ -41,7 +41,7 @@ export default function Cbc() {
 
 </ul>
 
-</p>
+</p></div>
 <br/><br/>
 <div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
 <a href="https://cbhogilal.in/" className="button">Visit Website <i class="fas fa-directions"></i> </a>{/*

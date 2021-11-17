@@ -20,9 +20,9 @@ export default function Cbc() {
 <p className={styles.responsivep}>Sur Gems (headquartered in Mumbai), has been providing consistent quality services, since 1971. The fibre of Sur Gems is built by starting where others give up. We introduce ourselves as a resource in this globally connected arena. We have a large variety of certified and non certified stones for you to choose from.<br/><br/>
 </p></div>
 
-<div style={{textAlign:'center'}}>
+<div className="icon-cont">
 <h2>Feature Highlights</h2>
-</div>
+
 <div className={styles.textArea}>
 <p>
 <ul className={styles.ulp} >
@@ -40,7 +40,7 @@ export default function Cbc() {
 
 </ul>
 
-</p>
+</p></div>
 <br/><br/>
 <div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
 <a href="https://surgems.co.in/" className="button">Visit Website <i class="fas fa-directions"></i> </a>

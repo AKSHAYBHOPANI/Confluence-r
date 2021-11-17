@@ -20,9 +20,9 @@ export default function Cbc() {
 <p className={styles.responsivep}>We began this company to create a unique buyer/seller platform by utilising our distinguished network to its maximum capability. We work as commission agents, deal sources, and the first line of command for diligence and excellence for all our clients.<br/><br/>
 </p></div>
 
-<div style={{textAlign:'center'}}>
+<div className="icon-cont">
 <h2>Feature Highlights</h2>
-</div>
+
 <div className={styles.textArea}>
 <p>
 <ul className={styles.ulp} >
@@ -40,7 +40,7 @@ export default function Cbc() {
 
 </ul>
 
-</p>
+</p></div>
 <br/>
 <div style={{clear:'both', display:'flex', justifyContent:'space-around', padding:'1rem'}}>
 <a href="https://foxandfifth-consulting.com" className="button">Visit Website <i class="fas fa-directions"></i> </a>
