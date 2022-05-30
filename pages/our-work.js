@@ -53,11 +53,11 @@ export default function OurWork() {
 	<div className={styles.middle}>
     <div className={styles.text}>DYNAMATICS</div>
   </div></a></Link>
-  <Link href="https://aasthafoundations.com/"><a href="https://aasthafoundations.com/" className={`${styles.box} ${styles.yellow} ${styles.main}`}>
+  {/*<Link href="https://aasthafoundations.com/"><a href="https://aasthafoundations.com/" className={`${styles.box} ${styles.yellow} ${styles.main}`}>
 	<Image layout="fill" src={`/Clients/aastha.png`}/>
 	<div className={styles.middle}>
     <div className={styles.text}>AASTHA</div>
-  </div></a></Link>
+  </div></a></Link>*/}
 <Link href="https://foxandfifth-consulting.com/"><a href="https://foxandfifth-consulting.com/" className={`${styles.box} ${styles.yellow} ${styles.main}`}>
 	<Image layout="fill" src={`/Clients/FoxandFifth.png`}/>
 	<div className={styles.middle}>
